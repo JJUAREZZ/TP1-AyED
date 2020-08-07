@@ -14,9 +14,9 @@ void inicializar_estructuras(int producto[], int producto_color[][DIM_COLOR], in
             producto_color[i][j] = 0;
         }
 	}
-    for (int i=0;i<DIM_PRODUCTO;i++){
+	for (int i=0;i<DIM_PRODUCTO;i++){
         for (int j=0;j<DIM_COLOR;j++){
-            contadores[i][j] = 0;
+			 contadores[i][j] = 0;
         }
 	}
 	for (int i=0;i<DIM_PRODUCTO;i++){
